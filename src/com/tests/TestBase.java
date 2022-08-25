@@ -18,7 +18,7 @@ public class TestBase {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-		driver.get("https://www.saucedemo.com/");
+		driver.get("https://www.google.com/");
 	}
 
 	@AfterTest
